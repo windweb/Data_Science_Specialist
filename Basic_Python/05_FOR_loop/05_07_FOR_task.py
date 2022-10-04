@@ -83,10 +83,8 @@ Protect yourself from predators - make them kind.
 Display all the values of the dangerous_animals list, prefacing each item with the word 'kind'.
 """
 dangerous_animals = ['волк', 'медведь', 'тигр', 'крокодил', 'леопард', 'бегемот', 'удав', 'тираннозавр', 'лев']
-
 for item in range(len(dangerous_animals)):
     print("добрый", dangerous_animals[item])
-
 print('Task 6.')
 """
 Задача 6
@@ -101,9 +99,9 @@ zeros = []
 #i = 0
 for _ in range(100):
     zeros.append(0)
-    #i += 1
-#print(i, "i")
-print(zeros) # выводим список на экран
+    # i += 1
+# print(i, "i")
+print(zeros)  # выводим список на экран
 
 print('Task 7.')
 """
@@ -166,7 +164,7 @@ second_string = 'o r ra.'
 # your code is here
 final_string = ''
 for item in range(0, len(first_string)):
-    final_string =  final_string +  first_string[item]
+    final_string = final_string + first_string[item]
     final_string =final_string + second_string[item]
 print(final_string)  # display the result on the screen
 
@@ -221,7 +219,7 @@ monthly_income = []
 for item in range(0, len(payers)):
     income = payers[item] * purchase_amount
     monthly_income.append(income)
-print(monthly_income) # выводим новый список на экран
+print(monthly_income)  # выводим новый список на экран
 
 print('Task 3.')
 """
@@ -280,7 +278,7 @@ conversions = []
 for item in range(len(payers)):
     conversion_rate = payers[item] / installs[item]
     conversions.append(conversion_rate)
-print(conversions) # выводим новый список на экран
+print(conversions)  # выводим новый список на экран
 
 
 print('Task 6.')
